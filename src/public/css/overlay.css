@@ -1,0 +1,154 @@
+.image-container {
+	position: relative;
+	max-width: 500px;
+	margin: auto;
+}
+
+/* Make the image to responsive */
+.overlay-image-responsive {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+/* //* Step 1 */
+.overlay-top-step-1 {
+	position: absolute;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 100px;
+}
+
+.overlay-right-step-1 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 100px;
+}
+
+.overlay-bottom-step-1 {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 100px;
+}
+
+.overlay-left-step-1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 100px;
+}
+
+/* //* Step 2 */
+.overlay-top-step-2 {
+	position: absolute;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 90px;
+}
+
+.overlay-right-step-2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 90px;
+}
+
+.overlay-bottom-step-2 {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 90px;
+}
+
+.overlay-left-step-2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 90px;
+}
+
+/* //* Step 3 */
+.overlay-top-step-3 {
+	position: absolute;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 70px;
+}
+
+.overlay-right-step-3 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 70px;
+}
+
+.overlay-bottom-step-3 {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 70px;
+}
+
+.overlay-left-step-3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 70px;
+}
