@@ -13,7 +13,7 @@
 
 /* The overlay effect - lays on top of the container and over the image */
 /* //* Step 1 */
-.overlay-top-step-1 {
+.overlay-top-step-one {
 	position: absolute;
 	top: 0;
 	background: rgb(0, 0, 0);
@@ -21,10 +21,10 @@
 	color: #f1f1f1;
 	width: 100%;
 	opacity: 100;
-	padding: 100px;
+	padding: 90px;
 }
 
-.overlay-right-step-1 {
+.overlay-right-step-one {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -33,10 +33,10 @@
 	color: #f1f1f1;
 	height: 100%;
 	opacity: 100;
-	padding: 100px;
+	padding: 90px;
 }
 
-.overlay-bottom-step-1 {
+.overlay-bottom-step-one {
 	position: absolute;
 	bottom: 0;
 	background: rgb(0, 0, 0);
@@ -44,10 +44,10 @@
 	color: #f1f1f1;
 	width: 100%;
 	opacity: 100;
-	padding: 100px;
+	padding: 90px;
 }
 
-.overlay-left-step-1 {
+.overlay-left-step-one {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -56,11 +56,11 @@
 	color: #f1f1f1;
 	height: 100%;
 	opacity: 100;
-	padding: 100px;
+	padding: 90px;
 }
 
 /* //* Step 2 */
-.overlay-top-step-2 {
+.overlay-top-step-two {
 	position: absolute;
 	top: 0;
 	background: rgb(0, 0, 0);
@@ -68,10 +68,10 @@
 	color: #f1f1f1;
 	width: 100%;
 	opacity: 100;
-	padding: 90px;
+	padding: 80px;
 }
 
-.overlay-right-step-2 {
+.overlay-right-step-two {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -80,10 +80,10 @@
 	color: #f1f1f1;
 	height: 100%;
 	opacity: 100;
-	padding: 90px;
+	padding: 80px;
 }
 
-.overlay-bottom-step-2 {
+.overlay-bottom-step-two {
 	position: absolute;
 	bottom: 0;
 	background: rgb(0, 0, 0);
@@ -91,10 +91,10 @@
 	color: #f1f1f1;
 	width: 100%;
 	opacity: 100;
-	padding: 90px;
+	padding: 80px;
 }
 
-.overlay-left-step-2 {
+.overlay-left-step-two {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -103,11 +103,11 @@
 	color: #f1f1f1;
 	height: 100%;
 	opacity: 100;
-	padding: 90px;
+	padding: 80px;
 }
 
 /* //* Step 3 */
-.overlay-top-step-3 {
+.overlay-top-step-three {
 	position: absolute;
 	top: 0;
 	background: rgb(0, 0, 0);
@@ -118,7 +118,7 @@
 	padding: 70px;
 }
 
-.overlay-right-step-3 {
+.overlay-right-step-three {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -130,7 +130,7 @@
 	padding: 70px;
 }
 
-.overlay-bottom-step-3 {
+.overlay-bottom-step-three {
 	position: absolute;
 	bottom: 0;
 	background: rgb(0, 0, 0);
@@ -141,7 +141,7 @@
 	padding: 70px;
 }
 
-.overlay-left-step-3 {
+.overlay-left-step-three {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -151,4 +151,51 @@
 	height: 100%;
 	opacity: 100;
 	padding: 70px;
+}
+
+/* //* Step 4 */
+.overlay-top-step-four {
+	position: absolute;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 60px;
+}
+
+.overlay-right-step-four {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 60px;
+}
+
+.overlay-bottom-step-four {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 60px;
+}
+
+.overlay-left-step-four {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0); /* Black see-through */
+	color: #f1f1f1;
+	height: 100%;
+	opacity: 100;
+	padding: 60px;
 }
