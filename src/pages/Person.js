@@ -601,7 +601,7 @@ const Person = () => {
                 }
 
 
-                {pId === 10 && sId === 54 &&
+                {pId === 10 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p10} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -656,62 +656,7 @@ const Person = () => {
                 }
 
 
-                {pId === 11 && sId === 54 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
-                }
-
-                {/* // * person 11  ===========================================================================================*/}
-
-                {/* // * person 11  ===========================================================================================*/}
-
-                {pId === 11 && sId === 1 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                        <div className="overlay-top-step-one"></div>
-                        <div className="overlay-right-step-one"></div>
-                        <div className="overlay-bottom-step-one"></div>
-                        <div className="overlay-left-step-one"></div>
-                    </div>
-                }
-
-                {pId === 11 && sId === 2 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                        <div className="overlay-top-step-two"></div>
-                        <div className="overlay-right-step-two"></div>
-                        <div className="overlay-bottom-step-two"></div>
-                        <div className="overlay-left-step-two"></div>
-                    </div>
-                }
-
-                {pId === 11 && sId === 3 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                        <div className="overlay-top-step-three"></div>
-                        <div className="overlay-right-step-three"></div>
-                        <div className="overlay-bottom-step-three"></div>
-                        <div className="overlay-left-step-three"></div>
-                    </div>
-                }
-
-                {pId === 11 && sId === 4 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                        <div className="overlay-top-step-four"></div>
-                        <div className="overlay-right-step-four"></div>
-                        <div className="overlay-bottom-step-four"></div>
-                        <div className="overlay-left-step-four"></div>
-                    </div>
-                }
-
-
-                {pId === 11 && sId === 54 &&
+                {pId === 11 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -766,7 +711,7 @@ const Person = () => {
                 }
 
 
-                {pId === 12 && sId === 54 &&
+                {pId === 12 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p12} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -821,7 +766,7 @@ const Person = () => {
                 }
 
 
-                {pId === 13 && sId === 54 &&
+                {pId === 13 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p13} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -876,7 +821,7 @@ const Person = () => {
                 }
 
 
-                {pId === 14 && sId === 54 &&
+                {pId === 14 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p14} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -931,7 +876,7 @@ const Person = () => {
                 }
 
 
-                {pId === 15 && sId === 54 &&
+                {pId === 15 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p15} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -986,7 +931,7 @@ const Person = () => {
                 }
 
 
-                {pId === 16 && sId === 54 &&
+                {pId === 16 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p16} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -1041,7 +986,7 @@ const Person = () => {
                 }
 
 
-                {pId === 17 && sId === 54 &&
+                {pId === 17 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p17} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -1096,7 +1041,7 @@ const Person = () => {
                 }
 
 
-                {pId === 18 && sId === 54 &&
+                {pId === 18 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p18} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -1151,7 +1096,7 @@ const Person = () => {
                 }
 
 
-                {pId === 19 && sId === 54 &&
+                {pId === 19 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p19} alt="virat" />
                         <div className="overlay-top-step-five"></div>
@@ -1206,7 +1151,7 @@ const Person = () => {
                 }
 
 
-                {pId === 20 && sId === 54 &&
+                {pId === 20 && sId === 5 &&
                     <div className='image-container'>
                         <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p20} alt="virat" />
                         <div className="overlay-top-step-five"></div>
