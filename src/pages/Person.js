@@ -5,6 +5,8 @@ import { useParams, Link } from 'react-router-dom';
 
 import '../public/css/overlay.css'
 
+import arraowLeft from '../public/icons/arrow-left.png'
+
 import p1 from '../public/persons/1.jpg'
 import p2 from '../public/persons/2.jpg'
 import p3 from '../public/persons/3.jpg'
@@ -26,6 +28,7 @@ import p18 from '../public/persons/18.jpg'
 import p19 from '../public/persons/19.jpg'
 import p20 from '../public/persons/20.jpg'
 import p21 from '../public/persons/21.jpg'
+
 
 const Person = () => {
 
@@ -51,11 +54,10 @@ const Person = () => {
                 <div>
                     <div className='row row-cols-auto'>
 
-                        <div className='col'>
+                        <div className='col my-auto'>
                             <Link className='text-white link' to="/">
-                                <h6>
-                                    HOME
-                                </h6>
+                                <img class="me-2" src={arraowLeft} alt="face icon" width="30" height="30" />
+                                <b>HOME</b>
                             </Link>
                         </div>
 
@@ -117,13 +119,15 @@ const Person = () => {
 
 
                 {pId === 1 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p1} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p1} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+                    </>
                 }
 
                 {/* // * person 1  =========================================================================================== */}
@@ -1193,11 +1197,10 @@ const Person = () => {
 
                 {pId !== 21 &&
 
-
                     <nav>
-                        <ul className="pagination justify-content-center pagination-lg text-center mt-4">
+                        <ul className="pagination justify-content-center pagination-md text-center mt-4">
 
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1209,7 +1212,7 @@ ${sId === 1 && pId !== 1 ? 'btn-primary ' : 'btn-outline-primary disabled'}
                             </li>
 
 
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1221,7 +1224,7 @@ ${sId === 1 ? 'btn-primary' : 'btn-outline-primary'}
                             </li>
 
 
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1231,7 +1234,7 @@ ${sId === 2 ? 'btn-primary' : 'btn-outline-primary'}
                                     2
                                 </button>
                             </li>
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1241,7 +1244,7 @@ ${sId === 3 ? 'btn-primary' : 'btn-outline-primary'}
                                     3
                                 </button>
                             </li>
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1251,7 +1254,7 @@ ${sId === 4 ? 'btn-primary' : 'btn-outline-primary'}
                                     4
                                 </button>
                             </li>
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1261,7 +1264,7 @@ ${sId === 5 ? 'btn-primary' : 'btn-outline-primary'}
                                     5
                                 </button>
                             </li>
-                            <li className="page-item mx-1" aria-current="page">
+                            <li className="page-item px-1" aria-current="page">
                                 <button
                                     className={`
 btn btn-lg 
@@ -1287,7 +1290,7 @@ ${sId === 5 ? 'btn-primary ' : 'btn-outline-primary disabled'}
                         <nav>
                             <ul className="pagination pagination-sm">
 
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
@@ -1299,7 +1302,7 @@ ${sId === 1 && pId !== 1 ? 'btn-primary ' : 'btn-outline-primary disabled'}
                                 </li>
 
 
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
@@ -1311,7 +1314,7 @@ ${sId === 1 ? 'btn-primary' : 'btn-outline-primary'}
                                 </li>
 
 
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
@@ -1321,7 +1324,7 @@ ${sId === 2 ? 'btn-primary' : 'btn-outline-primary'}
                                         2
                                     </button>
                                 </li>
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
@@ -1331,7 +1334,7 @@ ${sId === 3 ? 'btn-primary' : 'btn-outline-primary'}
                                         3
                                     </button>
                                 </li>
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
@@ -1341,7 +1344,7 @@ ${sId === 4 ? 'btn-primary' : 'btn-outline-primary'}
                                         4
                                     </button>
                                 </li>
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
@@ -1351,7 +1354,7 @@ ${sId === 5 ? 'btn-primary' : 'btn-outline-primary'}
                                         5
                                     </button>
                                 </li>
-                                <li className="page-item mx-1" aria-current="page">
+                                <li className="page-item px-1" aria-current="page">
                                     <button
                                         className={`
 btn btn-sm 
