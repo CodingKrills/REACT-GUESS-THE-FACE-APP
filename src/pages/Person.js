@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom';
+import Confetti from 'react-confetti'
 
 // * Imports
-
 import '../public/css/overlay.css'
 
 import arraowLeft from '../public/icons/arrow-left.png'
@@ -78,13 +78,15 @@ const Person = () => {
                 {/* // * person 1  =========================================================================================== */}
 
                 {pId === 1 && sId === 1 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p1} alt="virat" />
-                        <div className="overlay-top-step-one"></div>
-                        <div className="overlay-right-step-one"></div>
-                        <div className="overlay-bottom-step-one"></div>
-                        <div className="overlay-left-step-one"></div>
-                    </div>
+                    <>
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p1} alt="virat" />
+                            <div className="overlay-top-step-one"></div>
+                            <div className="overlay-right-step-one"></div>
+                            <div className="overlay-bottom-step-one"></div>
+                            <div className="overlay-left-step-one"></div>
+                        </div>
+                    </>
                 }
 
                 {pId === 1 && sId === 2 &&
@@ -120,6 +122,7 @@ const Person = () => {
 
                 {pId === 1 && sId === 5 &&
                     <>
+                        <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p1} alt="virat" />
                             <div className="overlay-top-step-five"></div>
@@ -128,6 +131,7 @@ const Person = () => {
                             <div className="overlay-left-step-five"></div>
                         </div>
                     </>
+
                 }
 
                 {/* // * person 1  =========================================================================================== */}
@@ -176,13 +180,17 @@ const Person = () => {
 
 
                 {pId === 2 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p2} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p2} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 2  ===========================================================================================*/}
@@ -231,13 +239,17 @@ const Person = () => {
 
 
                 {pId === 3 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p3} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p3} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 3  ===========================================================================================*/}
@@ -286,13 +298,17 @@ const Person = () => {
 
 
                 {pId === 4 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p4} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p4} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 4  ===========================================================================================*/}
@@ -341,13 +357,17 @@ const Person = () => {
 
 
                 {pId === 5 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p5} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p5} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 5  ===========================================================================================*/}
@@ -396,13 +416,17 @@ const Person = () => {
 
 
                 {pId === 6 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p6} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p6} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 6  ===========================================================================================*/}
@@ -451,13 +475,17 @@ const Person = () => {
 
 
                 {pId === 7 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p7} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p7} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 7  ===========================================================================================*/}
@@ -506,13 +534,17 @@ const Person = () => {
 
 
                 {pId === 8 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p8} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p8} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 8  ===========================================================================================*/}
@@ -561,13 +593,17 @@ const Person = () => {
 
 
                 {pId === 9 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p9} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p9} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 9  ===========================================================================================*/}
@@ -616,13 +652,17 @@ const Person = () => {
 
 
                 {pId === 10 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p10} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p10} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 10  ===========================================================================================*/}
@@ -671,13 +711,17 @@ const Person = () => {
 
 
                 {pId === 11 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 11  ===========================================================================================*/}
@@ -726,13 +770,17 @@ const Person = () => {
 
 
                 {pId === 12 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p12} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p12} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 12  ===========================================================================================*/}
@@ -781,13 +829,17 @@ const Person = () => {
 
 
                 {pId === 13 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p13} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p13} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 13  ===========================================================================================*/}
@@ -836,13 +888,17 @@ const Person = () => {
 
 
                 {pId === 14 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p14} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p14} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 14  ===========================================================================================*/}
@@ -891,13 +947,17 @@ const Person = () => {
 
 
                 {pId === 15 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p15} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p15} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 15  ===========================================================================================*/}
@@ -946,13 +1006,17 @@ const Person = () => {
 
 
                 {pId === 16 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p16} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p16} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 16  ===========================================================================================*/}
@@ -1001,13 +1065,17 @@ const Person = () => {
 
 
                 {pId === 17 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p17} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p17} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 17  ===========================================================================================*/}
@@ -1056,13 +1124,17 @@ const Person = () => {
 
 
                 {pId === 18 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p18} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p18} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 18  ===========================================================================================*/}
@@ -1111,13 +1183,17 @@ const Person = () => {
 
 
                 {pId === 19 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p19} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p19} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 19  ===========================================================================================*/}
@@ -1166,13 +1242,17 @@ const Person = () => {
 
 
                 {pId === 20 && sId === 5 &&
-                    <div className='image-container'>
-                        <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p20} alt="virat" />
-                        <div className="overlay-top-step-five"></div>
-                        <div className="overlay-right-step-five"></div>
-                        <div className="overlay-bottom-step-five"></div>
-                        <div className="overlay-left-step-five"></div>
-                    </div>
+                    <>
+                        <Confetti style={{ height: "100vh" }} />
+                        <div className='image-container'>
+                            <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p20} alt="virat" />
+                            <div className="overlay-top-step-five"></div>
+                            <div className="overlay-right-step-five"></div>
+                            <div className="overlay-bottom-step-five"></div>
+                            <div className="overlay-left-step-five"></div>
+                        </div>
+
+                    </>
                 }
 
                 {/* // * person 20  ===========================================================================================*/}
