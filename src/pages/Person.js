@@ -44,25 +44,25 @@ const Person = () => {
     }, [personId, stepId])
 
     return (
-        <div className='container' style={{ marginTop: "1%" }}>
+        <div className='container' style={{ marginTop: "4vh" }}>
 
             {pId !== 21 &&
 
                 <div>
-                    <div className='row nopadding'>
+                    <div className='row row-cols-auto'>
 
-                        <div className='col col-md-2'>
-                            <Link to="/">
-                                <div className='btn btn-md btn-primary'>
+                        <div className='col'>
+                            <Link className='text-white link' to="/">
+                                <h6>
                                     HOME
-                                </div>
+                                </h6>
                             </Link>
                         </div>
 
-                        <div className='col col-md-2'>
+                        <div className='col my-auto'>
                             <h6 className='text-white'>PERSON - <b>{pId}</b></h6>
                         </div>
-                        <div className='col col-md-2'>
+                        <div className='col my-auto'>
                             <h6 className='text-white'>STEP - <b>{sId}</b></h6>
                         </div>
                     </div>
@@ -1187,36 +1187,46 @@ const Person = () => {
 
                 {/* // * person 21  ===========================================================================================*/}
 
+            </div>
+
+            <div className='hide-on-phone'>
+
                 {pId !== 21 &&
+
 
                     <nav>
                         <ul className="pagination justify-content-center pagination-lg text-center mt-4">
+
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-         btn btn-lg 
-     ${sId === 1 && pId !== 1 ? 'btn-primary ' : 'btn-outline-primary disabled'}
-     `}
+btn btn-lg 
+${sId === 1 && pId !== 1 ? 'btn-primary ' : 'btn-outline-primary disabled'}
+`}
                                     onClick={() => { setPid(pId - 1); setSid(1) }}>
                                     PREV PERSON
                                 </button>
                             </li>
+
+
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-            btn btn-lg 
-        ${sId === 1 ? 'btn-primary' : 'btn-outline-primary'}
-        `}
+btn btn-lg 
+${sId === 1 ? 'btn-primary' : 'btn-outline-primary'}
+`}
                                     onClick={() => setSid(1)}>
                                     1
                                 </button>
                             </li>
+
+
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-         btn btn-lg 
-     ${sId === 2 ? 'btn-primary' : 'btn-outline-primary'}
-     `}
+btn btn-lg 
+${sId === 2 ? 'btn-primary' : 'btn-outline-primary'}
+`}
                                     onClick={() => setSid(2)}>
                                     2
                                 </button>
@@ -1224,9 +1234,9 @@ const Person = () => {
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-         btn btn-lg 
-     ${sId === 3 ? 'btn-primary' : 'btn-outline-primary'}
-     `}
+btn btn-lg 
+${sId === 3 ? 'btn-primary' : 'btn-outline-primary'}
+`}
                                     onClick={() => setSid(3)}>
                                     3
                                 </button>
@@ -1234,9 +1244,9 @@ const Person = () => {
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-         btn btn-lg 
-     ${sId === 4 ? 'btn-primary' : 'btn-outline-primary'}
-     `}
+btn btn-lg 
+${sId === 4 ? 'btn-primary' : 'btn-outline-primary'}
+`}
                                     onClick={() => setSid(4)}>
                                     4
                                 </button>
@@ -1244,9 +1254,9 @@ const Person = () => {
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-         btn btn-lg 
-     ${sId === 5 ? 'btn-primary' : 'btn-outline-primary'}
-     `}
+btn btn-lg 
+${sId === 5 ? 'btn-primary' : 'btn-outline-primary'}
+`}
                                     onClick={() => setSid(5)}>
                                     5
                                 </button>
@@ -1254,9 +1264,9 @@ const Person = () => {
                             <li className="page-item mx-1" aria-current="page">
                                 <button
                                     className={`
-         btn btn-lg 
-     ${sId === 5 ? 'btn-primary ' : 'btn-outline-primary disabled'}
-     `}
+btn btn-lg 
+${sId === 5 ? 'btn-primary ' : 'btn-outline-primary disabled'}
+`}
                                     onClick={() => { setPid(pId + 1); setSid(1) }}>
                                     NEXT PERSON
                                 </button>
@@ -1267,6 +1277,97 @@ const Person = () => {
 
 
             </div>
+
+            <footer class="footer hide-on-laptop">
+                {pId !== 21 &&
+
+                    <div>
+                        <hr />
+
+                        <nav>
+                            <ul className="pagination pagination-sm">
+
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 1 && pId !== 1 ? 'btn-primary ' : 'btn-outline-primary disabled'}
+`}
+                                        onClick={() => { setPid(pId - 1); setSid(1) }}>
+                                        PREV
+                                    </button>
+                                </li>
+
+
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 1 ? 'btn-primary' : 'btn-outline-primary'}
+`}
+                                        onClick={() => setSid(1)}>
+                                        1
+                                    </button>
+                                </li>
+
+
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 2 ? 'btn-primary' : 'btn-outline-primary'}
+`}
+                                        onClick={() => setSid(2)}>
+                                        2
+                                    </button>
+                                </li>
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 3 ? 'btn-primary' : 'btn-outline-primary'}
+`}
+                                        onClick={() => setSid(3)}>
+                                        3
+                                    </button>
+                                </li>
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 4 ? 'btn-primary' : 'btn-outline-primary'}
+`}
+                                        onClick={() => setSid(4)}>
+                                        4
+                                    </button>
+                                </li>
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 5 ? 'btn-primary' : 'btn-outline-primary'}
+`}
+                                        onClick={() => setSid(5)}>
+                                        5
+                                    </button>
+                                </li>
+                                <li className="page-item mx-1" aria-current="page">
+                                    <button
+                                        className={`
+btn btn-sm 
+${sId === 5 ? 'btn-primary ' : 'btn-outline-primary disabled'}
+`}
+                                        onClick={() => { setPid(pId + 1); setSid(1) }}>
+                                        NEXT
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                }
+            </footer >
 
 
         </div >

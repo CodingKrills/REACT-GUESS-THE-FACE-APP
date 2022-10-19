@@ -1,14 +1,17 @@
 body {
-	background-color: black;
+	background-color: #050505;
 }
 
 hr {
 	color: #f1f1f1;
 }
 
-.nopadding {
-	padding: 0 !important;
-	margin: 0 !important;
+.btn {
+	border-radius: 2rem;
+}
+
+.link {
+	text-decoration: none !important;
 }
 
 .image-container {
@@ -211,4 +214,213 @@ hr {
 	height: 100%;
 	opacity: 100;
 	padding: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+	.hide-on-laptop {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.hide-on-phone {
+		display: none;
+	}
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+	.btn {
+		border-radius: 2rem;
+		padding: 0.3rem 0.8rem;
+	}
+
+	/* //* Step 1 */
+	.overlay-top-step-one {
+		position: absolute;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 75px;
+	}
+
+	.overlay-right-step-one {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 75px;
+	}
+
+	.overlay-bottom-step-one {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 75px;
+	}
+
+	.overlay-left-step-one {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 75px;
+	}
+
+	/* //* Step 2 */
+	.overlay-top-step-two {
+		position: absolute;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 65px;
+	}
+
+	.overlay-right-step-two {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 65px;
+	}
+
+	.overlay-bottom-step-two {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 65px;
+	}
+
+	.overlay-left-step-two {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 65px;
+	}
+
+	/* //* Step 3 */
+	.overlay-top-step-three {
+		position: absolute;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 55px;
+	}
+
+	.overlay-right-step-three {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 55px;
+	}
+
+	.overlay-bottom-step-three {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 55px;
+	}
+
+	.overlay-left-step-three {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 55px;
+	}
+
+	/* //* Step 4 */
+	.overlay-top-step-four {
+		position: absolute;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 45px;
+	}
+
+	.overlay-right-step-four {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 45px;
+	}
+
+	.overlay-bottom-step-four {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		width: 100%;
+		opacity: 100;
+		padding: 45px;
+	}
+
+	.overlay-left-step-four {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgb(0, 0, 0);
+		background: rgb(0, 0, 0); /* Black see-through */
+		color: #f1f1f1;
+		height: 100%;
+		opacity: 100;
+		padding: 45px;
+	}
 }
