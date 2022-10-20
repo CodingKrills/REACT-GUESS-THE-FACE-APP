@@ -16,7 +16,7 @@ const Dashboard = () => {
                 {/* //* COL */}
                 <div className='col-12 text-center'>
                     <img class="mb-4" src={confused} alt="face icon" width="150" height="140" />
-                    <h1 class="display-7 fw-bold text-white mb-4">TEST YOUR FACE !</h1>
+                    <h1 class="display-7 fw-bold text-white mb-4">GUESS YOUR FACE !</h1>
                     <p class="lead mb-4 text-white">Can You Guess These Famous Faces From Just A Portion Of Their Face ?</p>
 
                     <Link className='nav-link' to='person/1/step/1'>
