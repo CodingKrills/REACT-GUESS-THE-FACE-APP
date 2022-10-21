@@ -222,6 +222,24 @@ hr {
 	padding: 60px;
 }
 
+/* //* Step 5 */
+
+.overlay-name-on-image {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.427); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	opacity: 100;
+	padding: 5px;
+}
+
+.person-name {
+	font-size: 1.2rem;
+}
+
+/* //* =================================== */
+
 @media only screen and (min-width: 600px) {
 	.hide-on-laptop {
 		display: none;

@@ -58,7 +58,7 @@ const Person = () => {
                             <Link className='text-white link' to="/">
                                 <img class="me-2" src={arraowLeft} alt="face icon" width="30" height="30" />
                                 <b>HOME</b>
-                            </Link>
+                            </Link>-
                         </div>
 
                         <div className='col my-auto'>
@@ -125,10 +125,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p1} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        MS Dhoni
+                                    </b>
+                                    - Captain cool
+                                </p>
+                            </div>
                         </div>
                     </>
 
@@ -184,10 +188,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p2} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Sushma Swaraj
+                                    </b>
+                                    - Ex External Affairs Minister
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -243,10 +251,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p3} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Sandeep Maheshwari
+                                    </b>
+                                    - Motivational Speaker
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -302,10 +314,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p4} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Sundar Pichai
+                                    </b>
+                                    - CEO of Google
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -361,10 +377,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p5} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Neeraj Chopra
+                                    </b>
+                                    - Gold medalist
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -420,10 +440,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p6} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Aishwarya Rai
+                                    </b>
+                                    - Miss World / Actress
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -479,12 +503,15 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p7} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Rakesh Jhunjhunwala
+                                    </b>
+                                    - Indian business magnate
+                                </p>
+                            </div>
                         </div>
-
                     </>
                 }
 
@@ -538,10 +565,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p8} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Ramdev Baba
+                                    </b>
+                                    - Yoga Guru
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -597,10 +628,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p9} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Rajat Sharma
+                                    </b>
+                                    - News Anchor
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -656,10 +691,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p10} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Rashmika Mandanna
+                                    </b>
+                                    - Actress
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -715,10 +754,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p11} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        A. P. J. Abdul Kalam
+                                    </b>
+                                    - Missile Man of India
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -774,10 +817,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p12} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Sunil Chhetri
+                                    </b>
+                                    - Captain of Indian Football team
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -833,10 +880,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p13} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Rajnikant
+                                    </b>
+                                    - Thalaivaar
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -892,12 +943,15 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p14} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Droupadi Murmu
+                                    </b>
+                                    - President of India
+                                </p>
+                            </div>
                         </div>
-
                     </>
                 }
 
@@ -951,10 +1005,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p15} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Kapil Sharma
+                                    </b>
+                                    - India's No. 1 Comedian
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -1010,10 +1068,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p16} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Sonu Sood
+                                    </b>
+                                    - Philanthopist / Actor / Real Hero
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -1069,10 +1131,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p17} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Lata Mangeshkar
+                                    </b>
+                                    - Nightingale of India
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -1128,10 +1194,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p18} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Arvind Kejriwal
+                                    </b>
+                                    - Chief Minister of Delhi
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -1187,10 +1257,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p19} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Kiran Bedi
+                                    </b>
+                                    - First lady IPS
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -1246,10 +1320,14 @@ const Person = () => {
                         <Confetti style={{ height: "100vh" }} />
                         <div className='image-container'>
                             <img className='img-fluid overlay-image-responsive' width={500} height={500} src={p20} alt="virat" />
-                            <div className="overlay-top-step-five"></div>
-                            <div className="overlay-right-step-five"></div>
-                            <div className="overlay-bottom-step-five"></div>
-                            <div className="overlay-left-step-five"></div>
+                            <div className="overlay-name-on-image">
+                                <p class="person-name text-white mt-2">
+                                    <b className='me-2'>
+                                        Rowan Atkinson
+                                    </b>
+                                    - Mr. Bean
+                                </p>
+                            </div>
                         </div>
 
                     </>
@@ -1456,29 +1534,40 @@ ${sId === 5 ? 'btn-primary ' : 'btn-outline-primary disabled'}
             </footer >
 
             {pId === 21 &&
-
                 <p className='text-center text-white fixed-bottom' style={{ bottom: "0", fontSize: "1.4rem" }}>
                     <span className='pe-2'>
                         Made With ❤️ By Pulkit Singh
+                        (
+                        <a className='link px-1' target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/pulkit-singh-b28984127/">
+                            <span className='pe-1'>
+                                connect
+                            </span>
+                            <svg className='mb-1' xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </a>
+                        )
+                        & Akansha Singh
+                        (
+                        <a className='link px-1' target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/akansha-kumari-133a89189/">
+                            <span className='pe-1'>
+                                connect
+                            </span>
+                            <svg className='mb-1' xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </a>
+                        )
                     </span>
                     |
-                    <Link className='link px-2' to={'https://github.com/CodingKrills/REACT-GUESS-THE-FACE-APP'}>
-                        <span className='pe-2'>
+                    <a className='link px-2' target="_blank" rel='noreferrer' href="https://github.com/CodingKrills/REACT-GUESS-THE-FACE-APP">
+                        <span className='pe-2 text-'>
                             Source Code
                         </span>
                         <svg className='mb-1' xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-github" viewBox="0 0 16 16">
                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                         </svg>
-                    </Link>
-                    |
-                    <Link className='link' to={'https://github.com/CodingKrills/REACT-GUESS-THE-FACE-APP'}>
-                        <span className='px-2'>
-                            Connect With Me
-                        </span>
-                        <svg className='mb-1' xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>
-                    </Link>
+                    </a>
                 </p>
             }
 
